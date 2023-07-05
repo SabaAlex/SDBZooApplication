@@ -19,4 +19,4 @@ class Animal:
         return str(self)
 
     def __eq__(self, other):
-        return self.get_name() == other.get_name() and other.get_age() == self.get_age()
+        return self.get_name() == other.get_name()
